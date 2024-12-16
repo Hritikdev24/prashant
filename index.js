@@ -6,6 +6,7 @@ const app=express();
 
 app.get("/",(res,req)=>{
   res.status(200),json({"msg":"Hi Hritik"});
+  console.log(res get successfully)
 })
 
 
