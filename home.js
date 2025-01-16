@@ -32,3 +32,16 @@ function routing(){
 function run(){
 console.log("you need to run form the bittom of the tree")
 }
+
+
+
+function    three(){
+    console.log("the way you are solving the problem you need to work in same way");
+}
+
+
+function  sortArray(a){
+ 
+a.sort((a,b)=>a-b);
+
+}
