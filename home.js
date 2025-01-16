@@ -20,3 +20,13 @@ function  time(){
       return arr[time.getDay()];
 }
 
+
+
+function routing(){
+    console.log("how are solve your life problem")
+}
+
+
+function run(){
+console.log("you need to run form the bittom of the tree")
+}
