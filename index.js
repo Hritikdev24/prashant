@@ -50,3 +50,7 @@ function indexOfPairs(a,target){
 
           return arr;
 }
+
+function daily(){
+    console.log("hi how are you");
+}
