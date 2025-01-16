@@ -25,3 +25,10 @@ function   cal(a){
 
 
 console.log(day());
+
+
+function date(){
+      const time=new Date();
+
+     return time.toLocaleDateString()
+}
