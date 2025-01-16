@@ -1,3 +1,5 @@
+import day from "./home.js"
+
 function validator(a){
     if(a>18){
         return true;
@@ -19,3 +21,7 @@ function gender(a){
 function   cal(a){
          return a*3;
 }
+
+
+
+console.log(day());
