@@ -32,3 +32,21 @@ function date(){
 
      return time.toLocaleDateString()
 }
+
+
+
+function indexOfPairs(a,target){
+      const arr=[];
+      const map=new Map();
+       
+          a.map(item=>{
+              const complememt =target-item;
+              if(map.has(complememt)){
+                  arr.push([complememt,item]);
+              }else{
+                map.set(item,true);
+              }
+          })
+
+          return arr;
+}
