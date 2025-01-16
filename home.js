@@ -1,15 +1,9 @@
-
-
- class Student{
-
-    info(){
-        console.log("all the student have to complete their task");
-    }
-   
-     
+function designation(a){
+   if(a=="fresher"){
+    return 340000;
+   }else{
+       return 1000000
+   }
 }
 
 
-const obj=new Student();
-
-export{obj}
