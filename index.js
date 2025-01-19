@@ -15,3 +15,7 @@ function validator(){
          return false
        }
 }
+
+function nextJs(){
+     console.log("it is the frame work");
+}
