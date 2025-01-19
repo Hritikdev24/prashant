@@ -1,56 +1,21 @@
-import day from "./home.js"
-
-function validator(a){
-    if(a>18){
-        return true;
-    }else{
-        return false;
-    }
-}
 
 
-function gender(a){
+function   preffix(a){
     if(a=="male"){
-        return "Mr"
+      return "Mr."
     }else{
-        return "Mis"
+      return "Miss."
     }
 }
 
-
-function   cal(a){
-         return a*3;
+function validator(){
+       if(a>19){
+         return true
+       }else{
+         return false
+       }
 }
 
-
-
-console.log(day());
-
-
-function date(){
-      const time=new Date();
-
-     return time.toLocaleDateString()
-}
-
-
-
-function indexOfPairs(a,target){
-      const arr=[];
-      const map=new Map();
-       
-          a.map(item=>{
-              const complememt =target-item;
-              if(map.has(complememt)){
-                  arr.push([complememt,item]);
-              }else{
-                map.set(item,true);
-              }
-          })
-
-          return arr;
-}
-
-function daily(){
-    console.log("hi how are you");
+function nextJs(){
+     console.log("it is the frame work");
 }
